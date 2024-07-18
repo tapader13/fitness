@@ -543,3 +543,167 @@ main {
 /* .benifit-card-left img {
     width: 100%;
 } */
+.calculator {
+
+    margin-bottom: 88px;
+
+    background: rgb(34, 34, 34);
+}
+
+.cal-container {
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-block: 50px;
+}
+
+.calculator-table h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.calculator-table table tr,
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+}
+
+.calculator-table table {
+    border-collapse: collapse;
+}
+
+.calculator-table table th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.calculator-table table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.calculator-inp {
+    width: 50%;
+}
+
+.calculator-inp h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.calculator-inp p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input .inp1,
+.input .inp2 {
+    display: flex;
+    gap: 20px;
+}
+
+.input .inp1 input,
+.input .inp2 input {
+    width: 50%;
+    border-radius: 8px;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+}
+
+
+.input .inp2 .arrow>input,
+.input .inp3 .arrow>input {
+    background: transparent;
+    border-radius: 0px;
+}
+
+.input .inp2>.arrow {
+    position: relative;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.arrow input {
+    padding-right: 40px;
+}
+
+.arrow i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #999;
+}
+
+.input .inp3 .arrow {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 15px 20px;
+
+}
+
+.input .inp3 input,
+.input .inp2 .arrow input {
+
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btns-cal {
+    margin-top: 40px;
+    padding-inline: 60px;
+}
