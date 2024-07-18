@@ -10,6 +10,11 @@
         gap: 50px;
     }
 
+    nav {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
     nav>ul {
         display: none;
     }
@@ -66,7 +71,7 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 120%;
         letter-spacing: 0%;
@@ -87,6 +92,11 @@
         cursor: pointer;
         outline: none;
         border: none;
+    }
+
+    .small-size {
+        padding: 16px 16px 16px 16px;
+        font-size: 14px;
     }
 
     .extra button {
@@ -125,7 +135,7 @@
         position: absolute;
         width: 196px;
         left: -6px;
-        bottom: 42%;
+        bottom: 35%;
         padding: 15px;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -140,9 +150,9 @@
     .div1 h1 {
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 37px;
+        font-size: 32px;
         font-weight: 900;
-        line-height: 40px;
+        line-height: 30px;
         letter-spacing: 1px;
         text-align: left;
     }
@@ -508,7 +518,7 @@
         background: rgba(48, 48, 48, 0.54);
         position: absolute;
         top: -20px;
-        right: -20px;
+        right: -10px;
         font-size: 25px;
     }
 
@@ -910,15 +920,15 @@
     } */
 }
 
-@media screen and (max-width: 402px) {
+/* @media screen and (max-width: 402px) {
     .btns-hero {
         justify-content: center;
         gap: 5px;
     }
 
     .btn-primary {
-        padding: 10px 20px 10px 20px;
+        padding: 5px 15px 5px 15px;
         font-size: 16px;
 
     }
-}
+} */
